@@ -1,0 +1,310 @@
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0px;
+  }
+  .dimond-coin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px !important;
+    margin-right: 20px !important;
+    img {
+      width: 22px !important;
+    }
+  }
+  .wheel-page {
+    height: 40%;
+
+    .roulette-wheel {
+      left: 0;
+      margin-left: 0px;
+      width: 250px;
+      height: 250px;
+      background-size: 250px 250px;
+      svg {
+        width: 250px !important;
+        height: 250px !important;
+        circle {
+          cx: 125px;
+          cy: 125px;
+          r: 125px;
+        }
+      }
+      .layer-2,
+      .layer-3,
+      .layer-4,
+      .layer-5,
+      .ball-container {
+        background-size: 250px 250px;
+      }
+      .ball {
+        width: 11px;
+        height: 11px;
+        transform: translate(0px, -128.221px) !important;
+        margin: -6px;
+      }
+    }
+  }
+  .game-main {
+    top: 37%;
+    .table-center-data {
+      margin: 10px 19px !important;
+      .history-icon {
+        display: none !important;
+      }
+    }
+  }
+  .coinShow {
+    width: 30px !important;
+    height: 30px !important;
+    .cardShowCoin_ {
+      font-size: 10px;
+    }
+  }
+  .dialog .mainDiaogBox {
+    min-width: 366px;
+    .dialog-data {
+      max-height: 199px;
+      .dialog-head {
+        img {
+          width: 123px;
+          margin-top: -64px;
+        }
+      }
+      .dialog-body {
+        h6 {
+          margin-top: 16px;
+        }
+        .chipNumberShow {
+          width: 63px;
+          img {
+            width: 63px;
+          }
+          span {
+            font-size: 16px;
+          }
+        }
+        h6 {
+          font-size: 14px;
+        }
+      }
+      .show-closeData {
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+      }
+    }
+  }
+  .top-btn-show{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    margin-left: 19px !important;
+  }
+  .helpIcon-button {
+    button {
+      width: 40px !important;
+      height: 40px !important;
+      svg {
+        width: 20px !important;
+      }
+    }
+  }
+  .sound-icon {
+    margin-left: 0px !important;
+    button {
+      width: 40px !important;
+      height: 40px !important;
+      svg {
+        width: 20px !important;
+      }
+    }
+  }
+  .history-icon {
+   margin: 8px 0px !important;
+    button {
+      width: 40px !important;
+      height: 40px !important;
+      i {
+        width: 17px !important;
+      }
+    }
+  }
+  .user-button {
+    margin-right: 15px !important;
+    button {
+      width: 40px !important;
+      height: 40px !important;
+      svg {
+        width: 20px !important;
+        height: 26px !important;
+      }
+    }
+  }
+  .coin-button-box {
+    .coinBtn {
+      .cardShowCoin_ {
+        width: 45px !important;
+        height: 45px !important;
+        font-size: 13px !important;
+        font-weight: bolder !important;
+      }
+    }
+  }
+  .table-timeWatch {
+    .time-watch {
+      width: 88px !important;
+      height: 37px !important;
+      margin-top: 1px;
+      &::after {
+        bottom: -10px !important;
+        width: 44% !important;
+        height: 7px !important;
+        border-radius: 2px 2px 6px 6px !important;
+      }
+      span{
+        font-size: 14px;
+      }
+    }
+  }
+  .table-headText {
+    h6 {
+      font-size: 14px !important;
+    }
+  }
+  .table-oldBet {
+    width: 53px !important;
+    h6 {
+      font-size: 12px !important;
+    }
+    .old-bet-boxNumber {
+      width: 25px !important;
+      height: 25px !important;
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .rules-model {
+    .rulesModelBox {
+      background-size: 300px 300px;
+      width: 300px;
+      height: 300px;
+      .model-head {
+        h6 {
+          padding-top: 7px;
+          font-size: 17px;
+        }
+        .close-icon {
+          top: 4px;
+          svg {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+      .model-body {
+        max-height: 238px;
+        margin-top: 20px;
+        h4 {
+          font-size: 16px;
+        }
+        ol {
+          padding-left: 24px;
+          li {
+            font-size: 13px;
+          }
+        }
+        ul {
+          padding-left: 24px;
+          li {
+          }
+        }
+        table {
+          thead {
+            th {
+              font-size: 14px;
+              padding-bottom: 3px;
+            }
+          }
+          tbody {
+            td {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .winnerModel .winnerModel-bg {
+    height: 250px;
+    background-size: 100% 250px;
+    .model {
+      .model-head {
+        img {
+          margin-top: -83px;
+          width: 150px;
+          height: 150px;
+        }
+        .time-count {
+          width: 40px;
+          height: 22px;
+          font-size: 14px;
+        }
+      }
+      .model-body {
+        .winner-fram {
+          width: 150px;
+          height: 40px;
+          h6 {
+            font-size: 15px;
+            span {
+              font-size: 19px;
+            }
+          }
+        }
+        h5 {
+          margin-top: 20px;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1500px
+) {
+  .wheel-page {
+    height: 40%;
+  
+    .roulette-wheel {
+      left: 0;
+      margin-left: 0px;
+      width: 250px;
+      height: 250px;
+      background-size: 250px 250px;
+      svg {
+        width: 250px !important;
+        height: 250px !important;
+        circle {
+          cx: 125px;
+          cy: 125px;
+          r: 125px;
+        }
+      }
+      .layer-2,
+      .layer-3,
+      .layer-4,
+      .layer-5,
+      .ball-container {
+        background-size: 250px 250px;
+      }
+      .ball {
+        width: 11px;
+        height: 11px;
+        transform: translate(0px, -128.221px) !important;
+        margin: -6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+
+.timeWatch {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .digi_clock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 55%;
+    border-radius: 70px;
+    background-color: #242424;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 1);
+  }
+  .digi_clock::before {
+    content: "";
+    position: absolute;
+    border-radius: 70px;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .digi_clock .frame {
+    position: absolute;
+    border-radius: 50px;
+    height: 84%;
+    width: 91%;
+    background-color: #373737;
+    border: 10px solid black;
+  }
+  .digi_clock .frame .screen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .digi_clock .frame .screen::after {
+    content: "";
+    position: absolute;
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    background-color: rgb(0, 0, 0, 0.3);
+    clip-path: ellipse(40% 10% at 50% 62%);
+  }
+  .container::after {
+    content: "";
+    position: absolute;
+    top: 17%;
+    height: 10%;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #212121;
+    z-index: -1;
+  }
+  .digi_clock .frame .screen .time {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vw;
+    transform: translateX(2.5%);
+    color: aquamarine;
+  }
+  .digi_clock .frame .screen .time:nth-child(2) {
+    width: 7%;
+    flex-direction: column;
+  }
+  .digi_clock .frame .screen .time:nth-child(2) span {
+    height: 1vw;
+    width: 1vw;
+    margin: 30%;
+    background-color: aquamarine;
+  }
+  .digi_clock .frame .screen .time::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444444;
+    z-index: -1;
+  }
+  .digi_clock .frame .screen .time:nth-child(1)::before {
+    content: "00";
+  }
+  .digi_clock .frame .screen .time:nth-child(3)::before {
+    content: "00";
+  }
+  
