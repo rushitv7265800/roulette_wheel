@@ -19,8 +19,8 @@ import HistoryModel from "./GameMain/HistoryModel";
 import NewTable from "./NewGame/NewTable";
 
 // export const baseURL = "http://192.168.29.241:5040/";
-export const baseURL = "https://rouletteCasinoGame.codderlab.com/";
-// export const baseURL = "https://roulette-wheel-casino-game.onrender.com/";
+// export const baseURL = "https://rouletteCasinoGame.codderlab.com/";
+export const baseURL = "https://roulette-wheel-game.onrender.com/";
 export const adminBaseURL = " https://allinone.codderlab.com/";
 export const key = "vguikkOUno8Xcfvjhkiyb06aIKrejZ9R4h";
 const queryParams = new URLSearchParams(window.location.search);
