@@ -11,9 +11,6 @@ import audioPath from "../assets/audio/coinsSound.mp3";
 import Frame from "./Frame";
 import { ToastConent } from "./ToastConent";
 import WinnerModel from "./WinnerModel";
-import axios from "axios";
-import { adminBaseURL } from "../App";
-import HistoryOpenModel from "./BetHistoryModel";
 import BetHistoryModel from "./BetHistoryModel";
 
 const generateRandomNumber = (min, max) => {

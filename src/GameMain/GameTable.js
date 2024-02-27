@@ -8,8 +8,7 @@ import audioPath from "../assets/audio/wheel.mp3";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import 'react-lazy-load-image-component/src/effects/black-and-white.css';
-import image from '../assets/TableNew.png'
-import NewTable from "../NewGame/NewTable";
+import NewTable from "../GamePage/NewGame/NewTable";
 
 let spinNumber = "Spin"
 export default function GameTable(props) {

@@ -2,16 +2,19 @@
   body {
     padding: 0px;
   }
+
   .dimond-coin {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px !important;
     margin-right: 20px !important;
+
     img {
       width: 22px !important;
     }
   }
+
   .wheel-page {
     height: 40%;
 
@@ -21,15 +24,18 @@
       width: 250px;
       height: 250px;
       background-size: 250px 250px;
+
       svg {
         width: 250px !important;
         height: 250px !important;
+
         circle {
           cx: 125px;
           cy: 125px;
           r: 125px;
         }
       }
+
       .layer-2,
       .layer-3,
       .layer-4,
@@ -37,6 +43,7 @@
       .ball-container {
         background-size: 250px 250px;
       }
+
       .ball {
         width: 11px;
         height: 11px;
@@ -45,49 +52,63 @@
       }
     }
   }
+
   .game-main {
     top: 37%;
+
     .table-center-data {
       margin: 10px 19px !important;
+
       .history-icon {
         display: none !important;
       }
     }
   }
+
   .coinShow {
     width: 30px !important;
     height: 30px !important;
+
     .cardShowCoin_ {
       font-size: 10px;
     }
   }
+
   .dialog .mainDiaogBox {
     min-width: 366px;
+
     .dialog-data {
       max-height: 199px;
+
       .dialog-head {
         img {
           width: 123px;
           margin-top: -64px;
         }
       }
+
       .dialog-body {
         h6 {
           margin-top: 16px;
         }
+
         .chipNumberShow {
           width: 63px;
+
           img {
             width: 63px;
           }
+
           span {
             font-size: 16px;
           }
         }
+
         h6 {
           font-size: 14px;
         }
       }
+
       .show-closeData {
         width: 22px;
         height: 22px;
@@ -95,52 +116,65 @@
       }
     }
   }
-  .top-btn-show{
+
+  .top-btn-show {
     flex-direction: column !important;
     align-items: flex-start !important;
     justify-content: flex-start !important;
     margin-left: 19px !important;
   }
+
   .helpIcon-button {
     button {
       width: 40px !important;
       height: 40px !important;
+
       svg {
         width: 20px !important;
       }
     }
   }
+
   .sound-icon {
     margin-left: 0px !important;
+
     button {
       width: 40px !important;
       height: 40px !important;
+
       svg {
         width: 20px !important;
       }
     }
   }
+
   .history-icon {
-   margin: 8px 0px !important;
+    margin: 8px 0px !important;
+
     button {
       width: 40px !important;
       height: 40px !important;
+
       i {
         width: 17px !important;
       }
     }
   }
+
   .user-button {
     margin-right: 15px !important;
+
     button {
       width: 40px !important;
       height: 40px !important;
+
       svg {
         width: 20px !important;
         height: 26px !important;
       }
     }
   }
+
   .coin-button-box {
     .coinBtn {
       .cardShowCoin_ {
@@ -151,75 +185,93 @@
       }
     }
   }
+
   .table-timeWatch {
     .time-watch {
       width: 88px !important;
       height: 37px !important;
       margin-top: 1px;
+
       &::after {
         bottom: -10px !important;
         width: 44% !important;
         height: 7px !important;
         border-radius: 2px 2px 6px 6px !important;
       }
-      span{
+
+      span {
         font-size: 14px;
       }
     }
   }
+
   .table-headText {
     h6 {
       font-size: 14px !important;
     }
   }
+
   .table-oldBet {
     width: 53px !important;
+
     h6 {
       font-size: 12px !important;
     }
+
     .old-bet-boxNumber {
       width: 25px !important;
       height: 25px !important;
+
       span {
         font-size: 12px;
       }
     }
   }
+
   .rules-model {
     .rulesModelBox {
       background-size: 300px 300px;
       width: 300px;
       height: 300px;
+
       .model-head {
         h6 {
           padding-top: 7px;
           font-size: 17px;
         }
+
         .close-icon {
           top: 4px;
+
           svg {
             width: 25px;
             height: 25px;
           }
         }
       }
+
       .model-body {
         max-height: 238px;
         margin-top: 20px;
+
         h4 {
           font-size: 16px;
         }
+
         ol {
           padding-left: 24px;
+
           li {
             font-size: 13px;
           }
         }
+
         ul {
           padding-left: 24px;
-          li {
-          }
+
+          li {}
         }
+
         table {
           thead {
             th {
@@ -227,6 +279,7 @@
               padding-bottom: 3px;
             }
           }
+
           tbody {
             td {
               font-size: 12px;
@@ -236,9 +289,11 @@
       }
     }
   }
+
   .winnerModel .winnerModel-bg {
     height: 250px;
     background-size: 100% 250px;
+
     .model {
       .model-head {
         img {
@@ -246,23 +301,28 @@
           width: 150px;
           height: 150px;
         }
+
         .time-count {
           width: 40px;
           height: 22px;
           font-size: 14px;
         }
       }
+
       .model-body {
         .winner-fram {
           width: 150px;
           height: 40px;
+
           h6 {
             font-size: 15px;
+
             span {
               font-size: 19px;
             }
           }
         }
+
         h5 {
           margin-top: 20px;
           font-size: 17px;
@@ -272,26 +332,28 @@
   }
 }
 
-@media screen and (max-width: 1500px
-) {
+@media screen and (max-width: 1500px) {
   .wheel-page {
     height: 40%;
-  
+
     .roulette-wheel {
       left: 0;
       margin-left: 0px;
       width: 250px;
       height: 250px;
       background-size: 250px 250px;
+
       svg {
         width: 250px !important;
         height: 250px !important;
+
         circle {
           cx: 125px;
           cy: 125px;
           r: 125px;
         }
       }
+
       .layer-2,
       .layer-3,
       .layer-4,
@@ -299,12 +361,406 @@
       .ball-container {
         background-size: 250px 250px;
       }
+
       .ball {
         width: 11px;
         height: 11px;
         transform: translate(0px, -128.221px) !important;
         margin: -6px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .login-page::after {
+    content: "";
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 500px;
+    background-color: #3276af;
+    background-image: url("../assets/logoNew.png");
+  }
+
+  .login-page .form-structor::after {
+    content: unset;
+    opacity: unset;
+    position: unset;
+    top: unset;
+    right: unset;
+    bottom: unset;
+    left: unset;
+    background-repeat: unset;
+    background-position: unset;
+    background-size: unset;
+    background-color: unset;
+    background-image: unset;
+  }
+
+  .login-page .form-structor {
+    height: 360px;
+    width: 100vw;
+  }
+
+  .login-page {
+    overflow: hidden;
+  }
+
+  .svg-loader {
+    transform: rotate(90deg);
+    height: 100vh;
+    overflow: hidden;
+    padding-bottom: 3vh;
+    justify-content: flex-end !important;
+    width: 100vh;
+    padding-right: 10vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: fixed;
+
+    svg {
+      width: 40% !important;
+      height: 40% !important;
+    }
+
+    .progress-bar {
+      margin-top: -15px;
+
+      .loader-details {}
+
+      .item_bar {
+        height: 16px;
+        width: 35vh;
+        margin-top: 6px;
+
+        .progress {
+          height: 16px;
+        }
+      }
+    }
+  }
+
+  .svg-loader-show {}
+
+  .login-page .form-structor .signup .form-title {
+    display: flex;
+    align-items: center;
+    margin-left: -9vw;
+    justify-content: center;
+
+  }
+
+  .login-page .form-structor .signup .submit-btn {
+    margin: 18px auto;
+    padding: 11px 35px;
+  }
+
+
+
+  .new-table {
+    height: 100vh;
+    width: 100vh;
+  }
+
+  .game-content {
+    width: 100vh;
+    height: 100vh;
+    transform: rotate(90deg);
+
+    .result-show {
+      position: absolute;
+      left: 2%;
+      top: 53%;
+      z-index: 9999;
+      transform: translate(0%, 0%);
+
+      .result-head {
+        .result-body {
+          font-size: 15px;
+          height: 230px;
+          padding: 6px;
+
+          h6 {
+            font-size: 12px;
+            margin-bottom: 2px;
+          }
+
+          h5 {
+            font-size: 12px !important;
+          }
+
+          .number-showBox {
+            .number {
+              width: 25px !important;
+              align-items: center !important;
+              height: 25px !important;
+
+              span {
+                font-size: 10px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .new-table .table-footer {
+      width: 100vh;
+      background-size: 76vh;
+      height: 11vh;
+      transform: translate(5%, 0%);
+
+      .coin-button-box {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        padding-top: 3vh;
+        align-items: center;
+        width: 75vh;
+
+        .coinBtn .cardShowCoin_ {
+          width: 35px !important;
+          height: 35px !important;
+          margin: 3px 7px;
+          font-size: 9px !important;
+        }
+
+        .userDetails {
+          height: 48px;
+          overflow: hidden;
+          width: 105px;
+          padding: 3px;
+          margin-left: 5px;
+
+          .user-avtar {
+            img {
+              width: 35px;
+              height: 35px;
+              border-width: 2px;
+            }
+          }
+        }
+
+        .user-balance {
+          h6 {
+            font-size: 10px;
+          }
+
+          h5 {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+    .showTableShow {
+      width: 100vh;
+      height: 100vh;
+    }
+
+    .tableTable {
+      height: calc(100% - 10vh);
+      width: 100vh;
+      justify-content: flex-start !important;
+      margin-left: 6vh;
+
+      .table-show {
+        background-size: 76vh 43vh;
+        height: 41vh;
+        width: 76vh;
+
+        .showWatch {
+          top: 4vh;
+          left: 0;
+          right: 28vh;
+
+
+          .outer {
+            width: 64px;
+            height: 25px;
+            border-radius: 14px;
+            border: 1px solid #477cb3;
+
+            .outer-shapes-top {
+              left: 50%;
+              top: -8px;
+              height: 4px;
+              border-radius: 3px 3px 0px 0px;
+
+            }
+
+            .outer-shapes-bottom {
+              &::before {
+                width: 10px;
+                height: 5px;
+                bottom: -8px;
+              }
+
+              &::after {
+                width: 10px;
+                height: 5px;
+                bottom: -8px;
+              }
+            }
+
+            .black-inside {
+              border: 3px solid #d5d0d5;
+              border-radius: 14px;
+              font-size: 10px;
+              height: 30px
+            }
+          }
+        }
+
+        .tableDataShow {
+          height: 29vh;
+          left: 49%;
+
+          .tableHead {
+            .bet-head {
+              .showBetHed {
+                max-width: 78px;
+                padding: 2px;
+                border-radius: 3px;
+                min-width: 94px;
+                height: 40px;
+
+                .showBetHed {
+                  padding: 4px;
+                }
+
+                .showBetData {
+                  .table-headText {
+                    h6 {
+                      margin: 0px;
+                      padding: 1px 0px;
+                      font-size: 10px !important;
+                      padding-bottom: 0px !important;
+
+                      span {
+                        font-size: 12px;
+                      }
+                    }
+                  }
+                }
+
+              }
+            }
+
+            .headRght {
+              .userIconShow {
+                width: 36px;
+                height: 36px;
+
+                img {
+                  width: 24px;
+                  height: 24px;
+                }
+              }
+            }
+          }
+
+          .table-body {
+            .bet-details {
+              .bet-box {
+                width: 9vh;
+                height: 9vh;
+
+                .bet-top {
+                  font-size: 11px;
+
+
+                  h6 {
+                    font-size: 11px;
+                    margin-bottom: 0px;
+                    padding: 1px 0px;
+                  }
+                }
+              }
+
+              .bet-number {
+                height: calc(100% - 15px) !important;
+              }
+
+              .bet-number {
+
+                h4 {
+                  font-size: 12px;
+                  margin-bottom: 1px;
+                }
+
+                h5 {
+                  font-size: 13px;
+                  margin-bottom: 1px;
+
+                  span {
+                    font-size: 13px;
+                    margin-bottom: 1px;
+                  }
+                }
+
+                .coinBoxMine {
+                  .coinShow {
+                    width: 24px !important;
+                    height: 24px !important;
+
+                    span {
+                      font-size: 8px;
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+
+    .wheel-page {
+      transform: translate(34%, 46%);
+
+      .roulette-wheel {
+        width: 180px;
+        height: 180px;
+        background-size: 180px 180px;
+
+        .layer-2,
+        .layer-3,
+        .layer-4,
+        .layer-5 {
+          background-size: 180px 180px;
+        }
+
+        .ball-container {
+          background-size: 180px 180px;
+
+          .ball {
+            width: 6px;
+            height: 6px;
+            transform: translate(0px, -110.221px) !important;
+            margin: -4px;
+          }
+        }
+
+        svg {
+          width: 180px !important;
+          height: 180px !important;
+
+          circle {
+            cx: 90px;
+            cy: 90px;
+            r: 90px;
+          }
+        }
+      }
+
     }
   }
 }
