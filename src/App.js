@@ -12,9 +12,12 @@ import LoginPage from "./Auth/LoginPage";
 import GamePage from "./GamePage/GamePage";
 import LoadingSvg from "./GamePage/extra/LoadingSvg";
 
-export const baseURL = "https://roulette-wheel-game.onrender.com/";
 // export const baseURL = "http://192.168.43.143:5040/";
 
+// export const baseURL = "http://192.168.29.241:5040/";
+// export const baseURL = "https://rouletteCasinoGame.codderlab.com/";
+export const baseURL = "https://roulette-wheel-game.onrender.com/";
+export const adminBaseURL = " https://allinone.codderlab.com/";
 export const key = "vguikkOUno8Xcfvjhkiyb06aIKrejZ9R4h";
 const queryParams = new URLSearchParams(window.location.search);
 const userId = queryParams.get("id") ? queryParams.get("id") : "6527da15bdfb0b7c39fd700f";
