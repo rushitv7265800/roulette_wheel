@@ -724,39 +724,39 @@
     }
 
     .wheel-page {
-      transform: translate(34%, 46%);
+      transform: translate(35%,47%);
 
       .roulette-wheel {
-        width: 180px;
-        height: 180px;
-        background-size: 180px 180px;
+        width: 160px;
+        height: 160px;
+        background-size: 160px 160px;
 
         .layer-2,
         .layer-3,
         .layer-4,
         .layer-5 {
-          background-size: 180px 180px;
+          background-size: 160px 160px;
         }
 
         .ball-container {
-          background-size: 180px 180px;
+          background-size: 160px 160px;
 
           .ball {
             width: 6px;
             height: 6px;
-            transform: translate(0px, -110.221px) !important;
+            transform: translateY(-100.221px)!important
             margin: -4px;
           }
         }
 
         svg {
-          width: 180px !important;
-          height: 180px !important;
+          width: 160px !important;
+          height: 160px !important;
 
           circle {
-            cx: 90px;
-            cy: 90px;
-            r: 90px;
+            cx: 80;
+            cy: 80px;
+            r: 80px;
           }
         }
       }
